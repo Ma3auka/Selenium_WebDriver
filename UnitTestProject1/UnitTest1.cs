@@ -34,7 +34,6 @@ namespace UnitTestProject1
             driver.Manage().Window.Maximize();
             driver.Navigate().GoToUrl("http://52.174.154.151:5587");
             driver.FindElement(By.Id("logo-container")).Click();
-            //driver.FindElement(By.)
             driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(10));
             driver.Url = "http://52.174.154.151:5587";
             IWebElement myDynamicElement5 = driver.FindElement(By.Id("download-button"));
